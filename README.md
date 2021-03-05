@@ -1,2 +1,2 @@
 # createTag-component
-only HTML, CSS, JS. Component for creating, modifying list of tags. Can be use  with UI and console.
+Only HTML, CSS, JS. Component for creating, modifying list of tags. Can be used  with UI and console.

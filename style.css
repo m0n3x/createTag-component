@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+.row-tag {
+    margin: 10px auto;
+}
+input.tag {
+    width: 220px;
+    height: 30px;
+    border: 2px solid black;
+
+}
+button{
+    background-color: white;
+    font-size: 15px;
+    border-radius: 15%;
+    border: 2px solid black;
+    width: 50px;
+    height: 30px;
+}
+.readonly {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+button:hover {
+    background-color: lightgreen;
+}
+.wrapper {
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    display: block;
+
+}
+
+.tags-list {
+    list-style-type: none;
+    margin-top: 35px;
+    display: flex;
+
+    flex-direction: column;
+}
+.tags-area {
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+    
+}
+.tag-item {
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.tag-item:hover .delete {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: url("../img/trash.png") center center/cover no-repeat;
+    cursor: pointer
+}
